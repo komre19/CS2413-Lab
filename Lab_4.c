@@ -1,6 +1,9 @@
 // Renard Kombo
 ///////////////////////////// LAB 4 PART 1: Symmetric Tree /////////////////////////////////////////////////
 // 5/6/2025
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>  // imported libraries
 
 bool isMirrorTree(struct TreeNode* leftSubtreeRoot, struct TreeNode* rightSubtreeRoot) {
     if (leftSubtreeRoot == NULL && rightSubtreeRoot == NULL) return true;
